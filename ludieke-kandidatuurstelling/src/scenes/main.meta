@@ -1,0 +1,22 @@
+{
+  "version": 0,
+  "timeEvents": [
+    {
+      "name": "stopX",
+      "targetTime": 35.74359999321693
+    },
+    {
+      "name": "stopY",
+      "targetTime": 35.695638182804736
+    },
+    {
+      "name": "stopInvX",
+      "targetTime": 35.76284387281173
+    },
+    {
+      "name": "stopInvY",
+      "targetTime": 35.565559128260105
+    }
+  ],
+  "seed": 1293623203
+}

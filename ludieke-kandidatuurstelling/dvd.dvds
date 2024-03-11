@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dvdstyler format="4" isoFile="/home/simeon/vid/pixel-ludieke-kandidatuurstelling/dvd.iso" name="Kandidatuurstelling Pixel" capacity="-3" defPostCommand="2" emptyMenu="0" videoFormat="3" audioFormat="2" aspectRatio="1">
+  <!--************** VMGM **************-->
+  <vmgm>
+    <fpc>jump title 1;</fpc>
+    <menus>
+      <video format="ntsc" aspect="4:3" widescreen="nopanscan"/>
+      <audio lang="NL"/>
+    </menus>
+  </vmgm>
+  <!--************** TITLESET 1 **************-->
+  <titleset>
+    <menus>
+      <video format="ntsc" aspect="4:3" widescreen="nopanscan"/>
+      <audio lang="EN"/>
+    </menus>
+    <titles>
+      <video format="pal" aspect="4:3" widescreen="nopanscan"/>
+      <audio lang="EN"/>
+      <!--************** TITLE 1 **************-->
+      <pgc>
+        <vob file="output/project.mp4" chapters="0:00">
+          <video format="2"/>
+          <audio format="2"/>
+          <pad left="23" right="23"/>
+        </vob>
+        <post>jump title 1;</post>
+      </pgc>
+    </titles>
+  </titleset>
+</dvdstyler>
